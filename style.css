@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+}
+.layout {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+.left-layout{
+    background-color: pink;
+    height: 100vh;
+}
+.right-layout{
+    background-color: blue;
+    flex-grow: 1;
+
+}
+.left-layout img{
+    height: 100vh;
+    width: auto;
+    display: block;
+}
