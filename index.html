@@ -5,14 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @font-face {
+    font-family: my-custom-font;
+    src: url(./fonts/Norse-Bold.otf);
+}
+    </style>
 </head>
 <body>
     <div class="layout">
         <div class="left-layout">
             <img src="./images/photo-1585202900225-6d3ac20a6962.avif" alt="Leaf of a tropical tree">
+            <div class="logo-container">
+                <img src="./images/odin-lined.png" alt="Odin Project Logo">
+                Odin
+            </div>
+            <div class="credit-author"> 
+                Photo by <u>Haley West</u> on <u>Unsplash</u>
+            </div>
         </div>
         <div class="right-layout">
-
+            <div class="aspiration">
+                <div class="inspiration">
+                    <p>Set yourself a blaze and run towards your dreams, not walk, run. 
+                        You can achieve your dreams. It is possible. It's not over until you win. 
+                        It wil be hard, but it is worth it.</p>
+                    <p>Don't wait to do something.</p>
+                </div>
+            </div>
+            <div class="main-form-container">
+                <div class="form">
+                    <p>Let's do this!</p>
+                    <form id="my-form" method="post" action="">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" name="first-name" required>
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name" name="last-name" required>
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email">
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="tel" id="phone-number" name="phone-number">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password">
+                        <label for="cpassword">CONFIRM PASSWORD</label>
+                        <input type="password" id="cpassword">
+                    </form>
+                </div>
+            </div>
+            <div class="final-submit-container">
+                <div class="final-words">
+                    <button type="submit" form="my-form">Create Account</button>
+                    <p>Already have an account? <a href="" target="_blank">Log in</a></p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
