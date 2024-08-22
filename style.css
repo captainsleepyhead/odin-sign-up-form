@@ -80,13 +80,79 @@ body{
 }
 .main-form-container  p {
     font-size: 1.8rem;
+    font-size: 5vh;
 }
 
 .form, .final-words {
     position:absolute;
     left: 5%;
+    width: 75%;
 }
 
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+input,
+textarea,
+select,
+button {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input {
+    font-size: 1.8rem;
+    font-size: 3vh;
+    font-weight: 500;
+}
+
+.final-words > button {
+    box-sizing: border-box;
+    width: 20rem;
+    font-size: 1.8rem;
+    padding: 8px;
+    color: white;
+    background-color: #596D48;
+    border-radius: 5px;
+}
+
+.final-words > a, .final-words a:visited {
+    color: #596D48;
+}
+
+.final-words{
+    top: 5%;
+}
+
+.final-words > p {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+input, label {
+    display: block;
+}
+
+.form-flexbox {
+    display: flex;
+    row-gap: 3vh;
+    column-gap: 10vw;
+    flex-wrap: wrap;
+}
+
+label {
+    font-size: 2vh;
+}
+
+.form > p {
+    margin-bottom: 2vh;
+}
 /* .final-submit-container{
     box-shadow: 0px 2px 5px 3px grey;
 } */
